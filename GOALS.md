@@ -11,6 +11,11 @@ Build a functional untyped lambda calculus interpreter with a visual reduction t
 23 01 25
 
 - Lambda-calculus AST (Abstract Syntax Tree)
+    - ast_statements
+    - Terms
+(Done)
+
+
 - Writing the Parser
 - Implementing beta-Reduction (Evaluator)
 - Building the visualizer
