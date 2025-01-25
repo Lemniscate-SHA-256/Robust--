@@ -23,6 +23,27 @@ const identity: Term = {
       }
     }
   };
+
+  // Church numeral n: λf.λx.f (f (... (f x) ...))
+  const churchNumeral = (n: number): Term => {
+    let term: Term = { type: "Var", name: "x" };
+    for (let i = 0; i < n; i++) {
+      term = {
+        type: "App",
+        func: { type: "Var", name: "f" },
+        arg: term
+      };
+    }
+    return {
+      type: "Lambda",
+      param: "f",
+      body: {
+        type: "Lambda",
+        param: "x",
+        body: term
+      }
+    };
+  };
   
   // Application: (λx.x) y
   const app: Term = {

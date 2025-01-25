@@ -16,7 +16,13 @@ Build a functional untyped lambda calculus interpreter with a visual reduction t
 (Done)
 
 
+25 01 25
+
 - Writing the Parser
+    - Nearly Documentation(Writing a Parser)
+(25 % Done)
+
+
 - Implementing beta-Reduction (Evaluator)
 - Building the visualizer
 - Creating the UI
