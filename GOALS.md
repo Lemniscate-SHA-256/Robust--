@@ -1,13 +1,3 @@
-core components (lambda calculus evaluator + visualizer)
-proof systems
-dependency graphs 
-
-MVP
-Build a functional untyped lambda calculus interpreter with a visual reduction tracer.
-
-
-
-
 23 01 25
 
 - Lambda-calculus AST (Abstract Syntax Tree)
@@ -17,12 +7,18 @@ Build a functional untyped lambda calculus interpreter with a visual reduction t
 
 
 25 01 25
-
+29 01 25
 - Writing the Parser
     - Nearly Documentation(Writing a Parser)
-(25 % Done)
+- Generating the Parser
+  - Installing nearly, moo, @types/nearly
+  - What is compiling a Grammar ? (Answered)
+(Done)
 
 
+
+- Impementation of the Parser in Typescript
+- Parser Tests
 - Implementing beta-Reduction (Evaluator)
 - Building the visualizer
 - Creating the UI
